@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main (){
+
+int numero,i,tab;
+printf("digite um numero: ");
+scanf ("%i",&numero);
+
+
+
+for(i=0;i<=10;i++){
+   tab=numero*i;
+   printf("%i x %i = %i\n",numero,i,tab);
+
+
+
+}
+}
+
+
