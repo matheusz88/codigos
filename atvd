@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    int numero[10];
+    int i, par = 0;
+
+    for (i=0;i<10;i++){
+        printf("Digite o numero %d: ", i+1);
+        scanf("%d", &numero[i]);
+    }
+
+    for (i=0;i<10;i++){
+       if (numero[i]%2 == 0){
+       par++;
+    }
+}
+    printf("Quantidade de numeros pares:%d\n",par);
+
+    return 0;
+}
